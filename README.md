@@ -15,7 +15,7 @@ pip install matplotlib
 # run
 
 ```bash
-cd ~/hacknation_cpk_ctrl/script
+cd ~/hacknation_cpk_ctrl/scripts
 python3 segmentacja_na_pliki.py
 ```
 
