@@ -1,22 +1,25 @@
 # hacknation_cpk_ctrl
 
-paste `file.las` to `~/hacknation_cpk_ctrl/scripts`
-
 # dependencies
 
 ```bash
-pip install laspy[lazrs] open3d numpy
+pip install numpy laspy open3d
 pip install matplotlib
+sudo apt-get install python3-tk
 ```
 
--[cloud_compare](https://flathub.org/en/apps/org.cloudcompare.CloudCompare) 
+-[cloud_compare_to_visualise_data](https://flathub.org/en/apps/org.cloudcompare.CloudCompare) 
  
 
 # run
 
 ```bash
 cd ~/hacknation_cpk_ctrl/scripts
-python3 segmentacja_na_pliki.py
+python3 interfejs.py
+
+#then select file.las and start analyzing the data
+
+#when finished, import generated .las data for example in CloudCompare 
 ```
 
 # test generated .las
